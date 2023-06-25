@@ -1,0 +1,92 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos da navegação */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Estilos das seções */
+section {
+  padding: 40px;
+}
+
+/* Estilos dos projetos */
+.project {
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  color: #555;
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos responsivos para dispositivos móveis */
+@media (max-width: 768px) {
+  /* Estilos do cabeçalho */
+  header {
+    padding: 10px;
+  }
+
+  /* Estilos da navegação */
+  nav ul li a {
+    padding: 5px 10px;
+  }
+
+  /* Estilos das seções */
+  section {
+    padding: 20px;
+  }
+
+  /* Estilos dos projetos */
+  .project h3 {
+    font-size: 18px;
+  }
+
+  /* Estilos do rodapé */
+  footer {
+    padding: 10px;
+  }
+}
